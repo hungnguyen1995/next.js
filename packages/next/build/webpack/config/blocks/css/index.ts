@@ -56,6 +56,7 @@ export const css = curry(async function css(
       options: {
         // Source maps are not required here, but we may as well emit
         // them.
+        removeCR: true,
         sourceMap: true,
       },
     },
